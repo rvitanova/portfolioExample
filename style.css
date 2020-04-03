@@ -1,0 +1,74 @@
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+/*Exmaple of what needs to be on the css file*/
+h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px
+}
+
+h2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+#visualHolders {
+   width: auto;
+   height: 100px;
+   display: flex;
+   justify-content: space-around; 
+}
+
+#visualHolder1 {
+    height: 100%;
+    width: 70%;
+    background-color: lightgreen;
+}
+
+#visualHolder2 {
+    height: 100%;
+    width: 30%;
+    background-color: lightskyblue;    
+}
+
+#textHolders {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-around; 
+ }
+ 
+ #textHolder1 {
+     height: 100%;
+     width: 20%;
+     padding: 30px;
+  }
+ 
+ #textHolder2 {
+     height: 100%;
+     width: 80%;
+     padding: 30px;
+     text-align: justify;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     letter-spacing: 2px;
+ }   
+
+#profilePic {
+    width: 300px;
+    height: 300px;   
+   
+}
+
+
